@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+    <div class="w-full min-h-screen bg-zinc-900 text-white">
+        <div class="flex justify-center items-center min-h-screen gap-5">
+            <button 
+            onclick="location.href='/createUser'"
+            class="border-2 border-white p-2 rounded-xl bg-blue-600 active:scale-95 active:bg-blue-700">Create User</button>
+            <button 
+            onclick="location.href='/loginUser'"
+            class="border-2 border-white p-2 rounded-xl bg-blue-600 active:scale-95 active:bg-blue-700">Login</button>
+            <button 
+            onclick="location.href='/userProfile'"
+            class="border-2 border-white p-2 rounded-xl bg-blue-600 active:scale-95 active:bg-blue-700">User Profile</button>
+
+            <button 
+            onclick="location.href='/logoutUser'"
+            class="border-2 border-white p-2 rounded-xl bg-red-500 active:scale-95 active:bg-red-700">Logout</button>
+        </div>
+    </div>
+</body>
+</html>
